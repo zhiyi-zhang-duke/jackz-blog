@@ -40,5 +40,10 @@ In my case it is https://localhost:3000/jackz-blog
 
 `npm run deploy` does not work correctly if any of the commands fail.
 Just running the command doesn't do much:
-You have to make the `out` directory
 You have to delete the current gh-pages branch.
+    `git push origin :gh-pages`
+Remove the out directory
+    `git rm -r out/`
+Make the out directory
+Run `npm next build`
+Run the steps one by one for best results

@@ -5,5 +5,8 @@ export default function Home() {
     <div>
       Hello Jack's World. This is his blog <Link href="/about">About</Link>
     </div>
+    <div>
+      Hopefully he doesn't need to deploy too many more times after this
+    </div>
   )
 }
