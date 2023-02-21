@@ -33,3 +33,12 @@ Congratulations! You should have a URL like:
 ```bash
 https://<github-user-name>.github.io/<github-project-name>/
 ```
+
+### What this template is missing
+Remember that the basePath in next.config.js is part of the dev environment url.
+In my case it is https://localhost:3000/jackz-blog
+
+`npm run deploy` does not work correctly if any of the commands fail.
+Just running the command doesn't do much:
+You have to make the `out` directory
+You have to delete the current gh-pages branch.
