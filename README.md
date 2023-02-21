@@ -45,5 +45,5 @@ You have to delete the current gh-pages branch.
 Remove the out directory
     `git rm -r out/`
 Make the out directory
-Run `npm next build`
+Run `npm run build`
 Run the steps one by one for best results
