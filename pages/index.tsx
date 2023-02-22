@@ -5,15 +5,27 @@ import Head from 'next/head'
 import Post from '../components/Post'
 import { sortByDate } from '../utils'
 
-import Link from 'next/link'
+type post = {
+  slug: string,
+  frontmatter: any,
+}
 
-export default function Home() {
+type postProps = {
+  posts: post[],
+}
+
+export default function Home({ posts }: postProps) {
   return (
     <div>
-      Hello Jack's World. This is his blog <Link href="/about">About</Link>
-      <div>
-        Hopefully he doesn't need to deploy too many more times after this
-      </div>      
+      <Head>
+        <title>Dev Blog</title>
+      </Head>
+
+      <div className='posts'>
+        {posts.map((post, index) => (
+          <Post key={index} post={post} />
+        ))}
+      </div>
     </div>
   )
 }
