@@ -8,7 +8,13 @@ let Post = ({ post }) => {
     <div className='card'>
       {/* These next two don't work */}
       {/* <img src={post.frontmatter.cover_image} alt='' /> */}
-      {/* <Image src='img1.jpg' alt='' width='100' height='100'/> */}
+      <Image 
+        src='https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg' 
+        alt='' 
+        width={300}
+        height={225} 
+        loading="eager"
+      />
       {/* <img src="/img1.jpg" alt='' /> */}
       {/* Below works */}
       {/* <img src="/jackz-blog/_next/static/media/img1.3130beb2.jpg" alt='' /> */}
