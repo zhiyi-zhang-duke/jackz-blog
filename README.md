@@ -35,15 +35,30 @@ https://<github-user-name>.github.io/<github-project-name>/
 ```
 
 ### What this template is missing
+
 Remember that the basePath in next.config.js is part of the dev environment url.
 In my case it is https://localhost:3000/jackz-blog
 
 `npm run deploy` does not work correctly if any of the commands fail.
 Just running the command doesn't do much:
 You have to delete the current gh-pages branch.
-    `git push origin :gh-pages`
+`git push origin :gh-pages`
 Remove the out directory
-    `git rm -r out/`
+`git rm -r out/`
 Make the out directory
 Run `npm run build`
 Run the steps one by one for best results
+
+### Updates on project
+
+2-26-23
+The ui-update branch is pretty close to complete. Currently next.js is having trouble linking the images. Trying to figure out why by creating a fresh project and trying `next/image` again there. Either it's a bug or there's a config I'm missing.
+
+### Random notes
+
+It looks like there's a newer version available?
+
+```
+A new version of `create-next-app` is available!
+You can update by running: npm i -g create-next-app
+```
