@@ -1,8 +1,8 @@
 ---
 title: "What's New In PHP 8?"
-date: 'March 7, 2021'
-excerpt: 'In this article we will look at some of the new features offered in version 8 of PHP'
-cover_image: '/images/posts/img4.jpg'
+date: "March 7, 2021"
+excerpt: "In this article we will look at some of the new features offered in version 8 of PHP"
+cover_image: "https://cdn.pixabay.com/photo/2014/05/21/22/28/old-newspaper-350376_960_720.jpg"
 ---
 
 Lorem markdownum erat meritum instat quis! Parari vera harundinibus molibus nam

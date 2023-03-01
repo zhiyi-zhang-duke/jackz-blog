@@ -9,7 +9,7 @@ let Post = ({ post }) => {
       {/* These next two don't work */}
       {/* <img src={post.frontmatter.cover_image} alt='' /> */}
       <Image 
-        src='https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_960_720.jpg' 
+        src={post.frontmatter.cover_image} 
         alt='' 
         width={300}
         height={225} 
