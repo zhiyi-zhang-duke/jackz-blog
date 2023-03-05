@@ -26,7 +26,7 @@ img {
 }
 
 header {
-  background: steelblue;
+  background: rgb(0, 67, 112);
   color: #fff;
   padding: 5px;
   margin-bottom: 40px;
@@ -75,12 +75,14 @@ header a {
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
   margin-top: 30px;
+  background: #242424
 }
 
 .card {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #575757;
 }
 
 .card-page {
@@ -92,7 +94,7 @@ header a {
 }
 
 .post-date {
-  background: #f4f4f4;
+  background: #575757;
   margin-bottom: 20px;
   padding: 3px 10px;
 }
@@ -106,7 +108,7 @@ ol {
 }
 
 .post-body pre {
-  background: #f4f4f4;
+  background: #000000;
   padding: 20px;
   margin: 20px 0;
   line-height: 2.3;
@@ -116,4 +118,8 @@ ol {
   .posts {
     grid-template-columns: 1fr;
   }
+}
+
+body {
+  background: #242424;
 }

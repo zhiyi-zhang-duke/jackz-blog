@@ -2,7 +2,7 @@
 title: "Python Book Review"
 date: "March 7, 2021"
 excerpt: "In this review, we will be looking at the new Python book from Oriley"
-cover_image: "https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg"
+cover_image: "img4.jpg"
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
