@@ -33,9 +33,6 @@ let Header = () => {
         </div>        
       </div>
     </header>
-    {/* <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="/">Dev Blog</a>
-    </nav> */}
     </>
   )
 }

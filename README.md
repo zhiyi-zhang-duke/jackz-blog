@@ -53,6 +53,15 @@ Run the steps one by one for best results
 
 2-26-23
 The ui-update branch is pretty close to complete. Currently next.js is having trouble linking the images. Trying to figure out why by creating a fresh project and trying `next/image` again there. Either it's a bug or there's a config I'm missing.
+3-3-23
+I was having an issue where dynamic images were not being processed correctly. Following next.js's documentation was not fruitful. I finally heard back after posting an issue about this and found that the basepath actually affected the location within next.js's output generation. Honestly I these issues should be noted in their documentaiton but hey that's just me.
+3-5-23
+I've played around with the css and gotten something much better. There's a nice header image with some tech about the blog and now everything is darker which is more my style.
+
+### To dos
+
+I think I should make the blog have more of this format:
+https://getbootstrap.com/docs/5.3/examples/blog/
 
 ### Random notes
 
